@@ -1,1 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2020-07-23T08:14:36.893Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" version="13.5.1" etag="MQRzACYyN8dSiK15XOEU" type="github"><diagram id="vSjMqY5UgSnGw5mZULVz">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-07-23T08:21:36.303Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="3bQYJJlMKsND2xmNp6H5" version="13.5.1" type="github">
+  <diagram id="vSjMqY5UgSnGw5mZULVz" name="Page-1">
+    <mxGraphModel dx="919" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zvvqcYPGiD4K9uQayMQq-1" value="HttpServer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="80" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zvvqcYPGiD4K9uQayMQq-2" value="invoker" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="180" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zvvqcYPGiD4K9uQayMQq-3" value="service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="270" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zvvqcYPGiD4K9uQayMQq-4" value="service dispatcher" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="360" width="230" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
