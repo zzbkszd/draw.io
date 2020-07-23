@@ -1,20 +1,50 @@
-<mxfile host="app.diagrams.net" modified="2020-07-23T08:21:36.303Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="3bQYJJlMKsND2xmNp6H5" version="13.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-23T08:58:12.378Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="pJj4puXR-uXfmGqAHZBD" version="13.5.1" type="github">
   <diagram id="vSjMqY5UgSnGw5mZULVz" name="Page-1">
     <mxGraphModel dx="919" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="zvvqcYPGiD4K9uQayMQq-1" value="HttpServer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="80" width="480" height="60" as="geometry" />
+        <mxCell id="zvvqcYPGiD4K9uQayMQq-1" value="HttpServer / Dubbo Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="80" width="270" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zvvqcYPGiD4K9uQayMQq-2" value="invoker" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="180" width="480" height="60" as="geometry" />
+        <mxCell id="zvvqcYPGiD4K9uQayMQq-2" value="Invoker" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="170" width="480" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zvvqcYPGiD4K9uQayMQq-3" value="service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="270" width="230" height="60" as="geometry" />
+        <mxCell id="zvvqcYPGiD4K9uQayMQq-3" value="service distribute" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="260" width="390" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zvvqcYPGiD4K9uQayMQq-4" value="service dispatcher" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="360" width="230" height="60" as="geometry" />
+        <mxCell id="zvvqcYPGiD4K9uQayMQq-4" value="service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="350" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zvvqcYPGiD4K9uQayMQq-5" value="Redis/Fusion, Dubbo, HttpApi, SDK...&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="440" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zvvqcYPGiD4K9uQayMQq-6" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;width=11;endSize=5.32;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="330" as="sourcePoint" />
+            <mxPoint x="450" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zvvqcYPGiD4K9uQayMQq-7" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;width=11;endSize=5.32;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="250" as="sourcePoint" />
+            <mxPoint x="560" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zvvqcYPGiD4K9uQayMQq-8" value="post action" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="284" y="350" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zvvqcYPGiD4K9uQayMQq-12" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;width=11;endSize=5.32;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="110" as="sourcePoint" />
+            <mxPoint x="80" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zvvqcYPGiD4K9uQayMQq-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zvvqcYPGiD4K9uQayMQq-13" target="zvvqcYPGiD4K9uQayMQq-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zvvqcYPGiD4K9uQayMQq-13" value="Kafka Consumer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="80" width="150" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
